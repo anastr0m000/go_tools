@@ -26,3 +26,4 @@ RUN go install -v github.com/owasp-amass/amass/v4/...@master
 RUN go install github.com/ffuf/ffuf/v2@latest
 #RUN go install github.com/projectdiscovery/katana/cmd/katana@latest
 RUN go install github.com/projectdiscovery/katana/cmd/katana@latest
+RUN ls /go/bin/
