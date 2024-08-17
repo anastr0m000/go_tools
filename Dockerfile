@@ -67,6 +67,8 @@ RUN ls /go/bin/
 
 # #RUN go install -u github.com/tomnomnom/gf
 RUN go install -v github.com/projectdiscovery/shuffledns/cmd/shuffledns@latest
+RUN go install -v github.com/projectdiscovery/dnsx/cmd/dnsx@latest
+RUN go install -v github.com/projectdiscovery/naabu/v2/cmd/naabu@latest
 
 
 
