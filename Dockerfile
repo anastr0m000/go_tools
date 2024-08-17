@@ -66,6 +66,7 @@ RUN ls /go/bin/
 # RUN git clone https://github.com/rix4uni/gf-patterns.git ~/.gf
 
 # #RUN go install -u github.com/tomnomnom/gf
+RUN go install -v github.com/projectdiscovery/shuffledns/cmd/shuffledns@latest
 
 
 
