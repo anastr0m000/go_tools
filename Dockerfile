@@ -3,7 +3,8 @@ FROM golang:1.23 as builder
 
 # Set the Current Working Directory inside the container  
 WORKDIR /
-
+RUN apt update
+RUN apt install -y libpcap-dev 
 # Install the Katana binary  
 RUN go install -v github.com/tomnomnom/anew@latest
 RUN go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
