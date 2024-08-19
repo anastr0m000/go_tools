@@ -70,6 +70,7 @@ RUN ls /go/bin/
 RUN go install -v github.com/projectdiscovery/shuffledns/cmd/shuffledns@latest
 RUN go install -v github.com/projectdiscovery/dnsx/cmd/dnsx@latest
 RUN go install -v github.com/projectdiscovery/naabu/v2/cmd/naabu@latest
+RUN go install github.com/tomnomnom/qsreplace@latest
 
 
 
